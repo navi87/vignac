@@ -5,10 +5,7 @@ Perl script, simplified version of whois. Returning results without unnecessary 
 ### Prerequisites
 
 ```
-apt-get install perl
-apt-get install cpan
-cpan -i WWW::Mechanize
-cpan -i JSON.pm
+apt-get install perl libwww-perl libwww-mechanize-perl libjson-perl
 ```
 ### Usage example:
 
